@@ -1,0 +1,56 @@
+.logo-sub::before {
+    content: 'Before';
+    color: red;
+    font-size: 30px;
+}
+
+.logo-sub::after {
+    content: 'After';
+    color: orange;
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: rgb(160, 158, 63);
+    transition: .5s;
+}
+
+.link-focus {
+    margin-top: 400px;
+}
+
+.link-hover {
+    margin-top: 30px;
+}
+
+.link-focus:focus {
+    color: red;
+}
+
+.link-hover:hover {
+    color: red;
+}
+
+body {
+    background-image: url("img/css-logo.png");
+    background-repeat: no-repeat;
+    height: 500px; 
+    background-position: center;
+    background-size: cover;
+}
+
+.list-item:nth-child(5) {
+    background-color: red;
+}
+
+.list-item:nth-child(2n) {
+    font-size: 30px;
+}
